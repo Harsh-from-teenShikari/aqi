@@ -9,7 +9,6 @@ fastapi
 flask
 joblib
 gunicorn
-colornama
 click
 blinker
 itsdangerous
