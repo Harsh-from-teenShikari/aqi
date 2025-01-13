@@ -6,3 +6,13 @@ plotly
 streamlit
 scikit-learn
 fastapi
+flask
+joblib
+gunicorn
+colornama
+click
+blinker
+itsdangerous
+Jinja
+Packaging
+pytz
