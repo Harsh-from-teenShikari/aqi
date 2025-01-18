@@ -7,16 +7,16 @@ import numpy as np
 st.set_page_config(page_title="AQI Prediction App", layout="wide")
 
 # Load the model
-@st.cache_resource
+# @st.cache_resource
 def load_model():
-    with open('best_aqi_model.pkl', 'rb') as file:
+    with open("Decision_Tree.pkl", 'rb') as file:
         model = pickle.load(file)
     return model
 
 # Load the dataset
-@st.cache_data
+# @st.cache_data
 def load_data():
-    df = pd.read_csv('AQI and Lat Long of Countries cleaned dataset.csv')  # Corrected file name
+    df = pd.read_csv("AQI and Lat Long of Countries cleaned dataset.csv")  # Corrected file name
     return df
 
 # Main function
